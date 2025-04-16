@@ -33,7 +33,6 @@ html_theme = 'furo'
 html_theme_options = {
     "sidebar_hide_name": False,
     "navigation_with_keys": True,
-    "top_of_page_button": ["view", "edit"],
     "light_css_variables": {
         "color-brand-primary": "green",
         "color-brand-content": "#CC3333",
