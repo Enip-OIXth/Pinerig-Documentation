@@ -1,0 +1,41 @@
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Document versions">
+  <ul id="versionwrap" role="presentation">
+    <li role="presentation">
+      <button id="version-popover" class="version-btn" tabindex="0" type="button" aria-label="Versions selector"
+        aria-haspopup="true" aria-owns="version-vsnlist" aria-disabled="true">
+        {{ release }}
+      </button>
+      <div class="version-dialog" aria-hidden="true">
+        <div class="version-title" aria-role="heading">Versions</div>
+        <ul id="version-vsnlist" class="version-list" role="menu" aria-labelledby="version-popover" aria-hidden="true">
+          <li role="presentation">Loading...</li>
+        </ul>
+      </div>
+    </li>
+    <li role="presentation">
+      <button id="lang-popover" class="version-btn" tabindex="0" type="button" aria-label="Language selector"
+        aria-haspopup="true" aria-owns="version-langlist">
+        {% if language is not none %} {{ language }} {% else %} en {% endif %}
+      </button>
+      <div class="version-dialog" aria-hidden="true">
+        <div class="version-title" aria-role="heading">Languages</div>
+        <ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-popover" aria-hidden="true">
+          <li role="presentation">Loading...</li>
+        </ul>
+      </div>
+    </li>
+    <template id="version-entry">
+      <li tabindex="-1" role="presentation"><a tabindex="-1" role="menuitem"></a></li>
+      <li class="selected" tabindex="-1" role="presentation"><span tabindex="-1" aria-current="page"></span></li>
+    </template>
+  </ul>
+  <template id="version-warning">
+    <div class="admonition warning">
+      <p class="first admonition-title">Note</p>
+      <p class="last">
+        You are not using the most up to date version of the documentation.
+        <a href="#"></a> is the newest version.
+      </p>
+    </div>
+  </template>
+</div>
