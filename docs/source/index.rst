@@ -18,8 +18,8 @@ and offers a *simple* and *intuitive* API.
    .. - `Download the manual in an e-book format (EPUB) <>`__
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+.. Check out the :doc:`usage` section for further information, including
+.. how to :ref:`installation` the project.
 
 .. note::
 
@@ -28,7 +28,5 @@ how to :ref:`installation` the project.
 Contents
 --------
 
-.. toctree::
 
-   usage
-   api
+   
