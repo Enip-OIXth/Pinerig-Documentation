@@ -6,9 +6,6 @@ Welcome to Pinerig's documentation!
 ===================================
 
 **Pinerig** is a addon for Blender 4.3+ and a Feature set for Rigify.
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
 
 .. only:: builder_html
 
