@@ -138,8 +138,8 @@ html_js_files = [
 # or URL that points an image file for the logo.
 #
 # Socket logo from: https://www.blender.org/about/logo
-html_logo = "../build_files/theme/blender-logo.svg"
-html_favicon = "../build_files/theme/favicon.png"
+html_logo = "theme/blender-logo.svg"
+html_favicon = "theme/favicon.png"
 
 # Additional templates that should be rendered to HTML pages,
 # must be a dictionary that maps document names to template names.
