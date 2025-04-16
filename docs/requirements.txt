@@ -1,11 +1,26 @@
-sphinx==7.1.2
+sphinx==7.4.7
 
-# Needed for the custom theme 
+# Sphinx dependencies that are important
+Jinja2==3.1.4
+Pygments==2.18.0
+docutils==0.21.2
+snowballstemmer==2.2.0
+babel==2.15.0
+requests==2.32.3
+
+# Only needed for building translations.
+sphinx-intl==2.2.0
+
+# Needed for the custom theme
+sphinx-basic-ng==1.0.0b2
 sphinx-rtd-theme==1.3.0rc1
 furo==2024.08.06
 
 # Required for spell-checking
 pyenchant
+
+# Required for `generate_commit_summary.py`
+GitPython
 
 # Only for convenience, allows live updating while editing RST files.
 # Access by running:
