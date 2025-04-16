@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  Pinerig |BLENDER_VERSION| Documentation
+  Pinerig Documentation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Welcome to Pinerig's documentation!
@@ -14,8 +14,8 @@ and offers a *simple* and *intuitive* API.
 
    This site can be used offline:
 
-   - `Download the manual as web pages (HTML) <>`__
-   - `Download the manual in an e-book format (EPUB) <>`__
+   .. - `Download the manual as web pages (HTML) <>`__
+   .. - `Download the manual in an e-book format (EPUB) <>`__
 
 
 Check out the :doc:`usage` section for further information, including
