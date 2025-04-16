@@ -53,7 +53,7 @@ if "latex" in sys.argv:
     image_converter = "magick"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ["../build_files/templates"]
+templates_path = ["_templates"]
 
 # A string of reStructuredText that will be included at the end of every
 # source file that is read. This is a possible place to add substitutions
