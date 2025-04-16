@@ -141,12 +141,6 @@ html_js_files = [
 html_logo = "../build_files/theme/blender-logo.svg"
 html_favicon = "../build_files/theme/favicon.png"
 
-# Additional templates that should be rendered to HTML pages,
-# must be a dictionary that maps document names to template names.
-html_additional_pages = {
-    "404": "404.html",
-}
-
 # If true, "(C) Copyright …" is shown in the HTML footer.
 html_show_copyright = True
 
@@ -193,7 +187,7 @@ epub_css_files = ["css/epub_overrides.css"]
 
 # A list of files that are generated/copied in the build directory
 # but should not be included in the epub file.
-epub_exclude_files = ["search.html", "404.html"]
+epub_exclude_files = ["search.html"]
 
 # The depth of the table of contents in the file toc.ncx.
 epub_tocdepth = 2
