@@ -7,6 +7,7 @@ These rig types handle generation of different kind of limbs and their features,
 
 
 --------------------
+
 .. _pinerig.limbs.finger:
 
 Finger
@@ -31,7 +32,7 @@ IK Control
    the fingertip locked to a surface it touches, rather than a fully featured posing system.
 
    To improve performance, the switchable parent for the IK control contains only one option beside None.
-   Thus it is advised to add a 'held object' control using the `basic.pivot <https://docs.blender.org/manual/en/latest/addons/rigging/rigify/rig_types/basic.html#rigify-rigs-basic-pivot>`
+   Thus it is advised to add a 'held object' control using the `basic.pivot <https://docs.blender.org/manual/en/latest/addons/rigging/rigify/rig_types/basic.html#rigify-rigs-basic-pivot>`_
    rig to act as the common parent for the fingers with a fully functional parent switch.
 IK Local Location
    Specifies the value of the Local Location option for IK controls, which decides if the location
@@ -44,12 +45,13 @@ Assign Extra IK Layers
 .. note::
 
    Rotation Axis (Bend Rotation Axis in the case of `Finger`_)
-   affects the `roll <https://docs.blender.org/manual/en/latest/animation/armatures/bones/editing/bone_roll.html>` of the generated bones.
+   affects the `roll <https://docs.blender.org/manual/en/latest/animation/armatures/bones/editing/bone_roll.html>`_ of the generated bones.
    Automatic mode recalculates the generated bones roll while
    any of the Manual modes copy the roll of the meta-rig bones.
 
 
 --------------------
+
 .. _pinerig.limbs.shoulder:
 
 
@@ -64,6 +66,7 @@ Requirement : The bone with this pinerig-type must have a child chain with a val
 
 
 --------------------
+
 .. _pinerig.limbs.arm:
 
 Arm
@@ -95,6 +98,7 @@ Assign Tweak Layers
 
 
 --------------------
+
 .. _pinerig.limbs.leg:
 
 Leg
@@ -135,6 +139,7 @@ Assign Tweak Layers
 
 
 --------------------
+
 .. _pinerig.limbspaw:
 
 Paw
@@ -160,6 +165,7 @@ Assign Tweak Layers
 
 
 --------------------
+
 .. _pinerig.limbs.front_paw:
 
 Front Paw
@@ -178,6 +184,7 @@ Heel IK Influence
 
 
 --------------------
+
 .. _pinerig.limbs.rear_paw:
 
 
