@@ -53,9 +53,6 @@ if "latex" in sys.argv:
     extensions.append("sphinx.ext.imgconverter")
     image_converter = "magick"
 
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ["_build_files/templates"]
-
 # A string of reStructuredText that will be included at the end of every
 # source file that is read. This is a possible place to add substitutions
 # that should be available in every file.
@@ -78,8 +75,12 @@ numfig_secnum_depth = 0
 # A list of paths that contain custom themes, either as subdirectories
 # or as zip files. Relative paths are taken as relative to
 # the configuration directory.
-html_theme_path = ["_build_files/theme"]
+
+html_theme_path = ["build_files/theme"]
 html_static_path = ["_static"]
+# Add any paths that contain templates here, relative to this directory.
+templates_path = ["build_files/templates"]
+
 
 # The theme to use for HTML and HTML Help pages.
 html_theme = 'furo'
@@ -153,8 +154,8 @@ pygments_dark_style = "monokai"
 # or URL that points an image file for the logo.
 #
 # Socket logo from: https://www.blender.org/about/logo
-html_logo = "theme/blender-logo.svg"
-html_favicon = "theme/favicon.png"
+html_logo = "build_files/theme/blender-logo.svg"
+html_favicon = "build_files/theme/favicon.png"
 
 # Additional templates that should be rendered to HTML pages,
 # must be a dictionary that maps document names to template names.
