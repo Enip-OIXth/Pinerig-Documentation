@@ -11,6 +11,8 @@ import sys
 
 from sphinx import version_info as sphinx_version
 
+sys.path.insert(0, os.path.abspath(os.path.join("..", "build_files", "extensions")))
+
 # -- Local Vars --------------------------------------------------------------
 
 # Not used directly by Sphinx, but used by this file and the buildbot.
@@ -157,8 +159,8 @@ pygments_dark_style = "monokai"
 # or URL that points an image file for the logo.
 #
 # Socket logo from: https://www.blender.org/about/logo
-html_logo = "build_files/theme/blender-logo.svg"
-html_favicon = "build_files/theme/favicon.png"
+html_logo = "../build_files/theme/blender-logo.svg"
+html_favicon = "../build_files/theme/favicon.png"
 
 # Additional templates that should be rendered to HTML pages,
 # must be a dictionary that maps document names to template names.

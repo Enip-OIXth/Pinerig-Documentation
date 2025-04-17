@@ -10,7 +10,6 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=.\manual
 set BUILDDIR=build
 
-if "%1" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
@@ -23,6 +22,13 @@ if errorlevel 9009 (
 	echo.If you don't have Sphinx installed, grab it from
 	echo.http://sphinx-doc.org/
 	exit /b 1
+)
+
+if "%1" == "setup" (
+	python -m venv ".venv"
+	".venv\Scripts\pip" install pip --upgrade
+	".venv\Scripts\pip" install -r "requirements.txt" --upgrade
+	goto EOF
 )
 
 if "%1" == "latexpdf" (
@@ -50,8 +56,10 @@ if "%1" == "check_spelling" (
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
 
-:help
-%SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+
+if "%1" == "" (
+	%SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+)
 
 :end
 popd
