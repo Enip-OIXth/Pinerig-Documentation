@@ -95,11 +95,10 @@ html_theme_options = {
     "sidebar_hide_name": True,
     "navigation_with_keys": True,
     "top_of_page_buttons": [],
-
     "light_css_variables": {
-        "color-foreground-primary": "black",        # for main text and headings
-        "color-foreground-secondary": "#5a5c63",    # for secondary text
-        "color-foreground-border": "#878787",       # for content borders
+        "color-foreground-primary": "black",        # for main text and headings (default : "black")
+        "color-foreground-secondary": "#5a5c63",    # for secondary text (default : "#5a5c63")
+        "color-foreground-border": "#878787",       # for content borders (default : "#878787")
 
         "color-brand-primary": "#265787",
         "color-brand-content": "#265787",

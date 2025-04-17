@@ -16,6 +16,6 @@ Customization
 =============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    rig_types/index.rst
