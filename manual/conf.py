@@ -31,7 +31,6 @@ version = '0.1.0'
 # -- Extension configuration -------------------------------------------------
 
 extensions = [
-    '404',
     'icons',
     'reference',
     'sphinx_design',

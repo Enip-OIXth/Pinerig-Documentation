@@ -80,12 +80,10 @@ Secondary Influence Falloff (Float)
    (for bottom lip loops the blend moves away from inner bottom lip to full jaw influence).
 Make Secondary Jaw Controls (Boolean)
    Adds stretching and target control bones to the jaw.
-
 .. Teeth Settings
 Add Teeth Collision (Boolean)
    Requires 2 teeth pinerig-types as children of the jaw. Generates mechanisms allowing the upper teeth to collide with the lower teeth. 
    This can be disabled using the bone property of the upper teeth's bone. Offset and Collision Stop Distance can also be tweaked that way after generation.
-
 .. Lip Settings
 Enable Lip Collision (Boolean)
    Generates the mechanisms allowing the upper lip to collide with the lower lip. This can be disabled using the bone property of any upper lip bone.

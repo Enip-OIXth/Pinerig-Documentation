@@ -30,7 +30,7 @@ IK Control
    the fingertip locked to a surface it touches, rather than a fully featured posing system.
 
    To improve performance, the switchable parent for the IK control contains only one option beside None.
-   Thus it is advised to add a 'held object' control using the :ref:`basic.raw_copy <rigify.rigs.basic.pivot>`
+   Thus it is advised to add a 'held object' control using the :ref:`basic.pivot <https://docs.blender.org/manual/en/latest/addons/rigging/rigify/rig_types/basic.html#rigify-rigs-basic-pivot>`
    rig to act as the common parent for the fingers with a fully functional parent switch.
 IK Local Location
    Specifies the value of the Local Location option for IK controls, which decides if the location
@@ -42,8 +42,8 @@ Assign Extra IK Layers
 
 .. note::
 
-   Rotation Axis (Bend Rotation Axis in the case of `limbs.super_finger`_)
-   affects the :doc:`roll </animation/armatures/bones/editing/bone_roll>` of the generated bones.
+   Rotation Axis (Bend Rotation Axis in the case of `limbs.finger`)
+   affects the `roll <https://docs.blender.org/manual/en/latest/animation/armatures/bones/editing/bone_roll.html>` of the generated bones.
    Automatic mode recalculates the generated bones roll while
    any of the Manual modes copy the roll of the meta-rig bones.
 
@@ -106,15 +106,12 @@ child of the foot to be used as the heel pivot.
 
 Add Joint Lock (Boolean)
    Create joint lock bone assigned to the `tweak` bone collection. This bone can also be used as a switchable parent candidate for the `foot_ik` control bone.
-
 Foot Pivot (Ankle, Toe, Ankle & Toe)
    Specifies where to put the pivot location of the main IK control, or whether to generate an additional
    pivot control at the base of the toe.
-
 Separate IK Toe
    Specifies that two separate toe controls should be generated for IK and FK instead of sharing one bone.
    This is necessary to get fully correct IK-FK snapping in all possible poses.
-
 Toe Tip Roll
    Generates a slider to switch the heel control to pivot on the tip rather than the base of the toe
    (for roll this obviously only applies on forward roll).

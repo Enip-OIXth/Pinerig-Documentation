@@ -1,6 +1,6 @@
-****
+*****
 Extra
-****
+*****
 
 These rig types are used to give new objects/constraints/modifiers attached to the rig.
 

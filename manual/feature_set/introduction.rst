@@ -1,7 +1,7 @@
 
-******
+************
 Introduction
-******
+************
 
 
 Most of these rig types emulates the way their default Rigify counterparts work while adding new options and features.

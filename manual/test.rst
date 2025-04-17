@@ -1,10 +1,6 @@
-Welcome to Lumache's documentation!
+Welcome to TESTING GROUNDS!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers that
-creates recipes mixing random ingredients.  It pulls data from the `Open Food
-Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
-*intuitive* API.
 
 |release|
 |version|
@@ -13,31 +9,35 @@ Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
 
 .. note::
     An especially important bit of information that the reader should know. The content of the directive should be written in complete sentences and include all appropriate punctuation.
-   This project is under active development.
+    This project is under active development.
 
 .. tip::
-    Some useful tidbit of information for the reader. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    Some useful tidbit of information for the reader. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. warning::
-    An important bit of information that the reader should be very aware of. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    An important bit of information that the reader should be very aware of. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. error::
-    Information relating to failure modes of some description. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    Information relating to failure modes of some description. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. hint::
-    Information that is helpful to the reader. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    Information that is helpful to the reader. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. important::
-    Information that is of paramount importance and which the reader must not ignore. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    Information that is of paramount importance and which the reader must not ignore. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. caution::
-    Information with regard to which the reader should exercise care. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    Information with regard to which the reader should exercise care. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. danger::
-    :collapsible: open
-    Information which may lead to near and present danger if not heeded. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    Information which may lead to near and present danger if not heeded. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. attention::
-    :collapsible: closed
-    Information that requires the reader’s attention. The content of the directive should be written in complete sentences and include all appropriate punctuation.
+    Information that requires the reader’s attention. 
+    The content of the directive should be written in complete sentences and include all appropriate punctuation.
 .. admonition::
-    test
-
+    testing stuff
 .. seealso::
-
    Python's :py:mod:`zipfile` module
       Documentation of Python's standard :py:mod:`zipfile` module.
 
