@@ -8,6 +8,7 @@ snowballstemmer==2.2.0
 babel==2.15.0
 requests==2.32.3
 myst-parser
+sphinx-design
 sphinx-copybutton
 sphinxext-opengraph
 sphinx-inline-tabs

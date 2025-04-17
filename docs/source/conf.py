@@ -92,10 +92,19 @@ html_theme_options = {
     "top_of_page_buttons": [],
 
     "light_css_variables": {
+        "color-foreground-primary": "black",        # for main text and headings
+        "color-foreground-secondary": "#5a5c63",    # for secondary text
+        "color-foreground-border": "#878787",       # for content borders
+
         "color-brand-primary": "#265787",
         "color-brand-content": "#265787",
         "color-admonition-background": "purple",
      },
+
+     
+    "dark_css_variables": {
+         "color-brand-primary": "#265787",
+    },
 
     "footer_icons": [
         {
