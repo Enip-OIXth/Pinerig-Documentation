@@ -6,6 +6,7 @@ Limbs
 These rig types handle generation of different kind of limbs and their features, like fingers.
 
 
+--------------------
 .. _pinerig.limbs.finger:
 
 Finger
@@ -48,6 +49,7 @@ Assign Extra IK Layers
    any of the Manual modes copy the roll of the meta-rig bones.
 
 
+--------------------
 .. _pinerig.limbs.shoulder:
 
 
@@ -61,6 +63,7 @@ Also added a way to add specific widgets to the control bone.
 Requirement : The bone with this pinerig-type must have a child chain with a valid '.arm' rigify-type in order to generate properly.
 
 
+--------------------
 .. _pinerig.limbs.arm:
 
 Arm
@@ -91,6 +94,7 @@ Assign Tweak Layers
    If enabled, allows placing the Tweak controls in different bone collections from the IK bones.
 
 
+--------------------
 .. _pinerig.limbs.leg:
 
 Leg
@@ -130,6 +134,7 @@ Assign Tweak Layers
    If enabled, allows placing the Tweak controls in different bone collections from the IK bones.
 
 
+--------------------
 .. _pinerig.limbspaw:
 
 Paw
@@ -154,6 +159,7 @@ Assign Tweak Layers
    If enabled, allows placing the Tweak controls in different bone collections from the IK bones.
 
 
+--------------------
 .. _pinerig.limbs.front_paw:
 
 Front Paw
@@ -171,7 +177,9 @@ Heel IK Influence
    not affect the rotation of the paw bone, while lower values provide some blending.
 
 
+--------------------
 .. _pinerig.limbs.rear_paw:
+
 
 Rear Paw
 ==============
