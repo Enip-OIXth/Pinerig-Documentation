@@ -11,8 +11,6 @@ import sys
 
 from sphinx import version_info as sphinx_version
 
-sys.path.insert(0, os.path.abspath(os.path.join("..", "build_files", "extensions")))
-
 # -- Local Vars --------------------------------------------------------------
 
 # Not used directly by Sphinx, but used by this file and the buildbot.
@@ -31,6 +29,9 @@ version = '0.1.0'
 # -- Extension configuration -------------------------------------------------
 
 extensions = [
+    'myst-parser'
+    'sphinx_inline_tabs',
+    'sphinx_copybutton',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -53,7 +54,7 @@ if "latex" in sys.argv:
     image_converter = "magick"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
+templates_path = ["_build_files/templates"]
 
 # A string of reStructuredText that will be included at the end of every
 # source file that is read. This is a possible place to add substitutions
@@ -77,7 +78,8 @@ numfig_secnum_depth = 0
 # A list of paths that contain custom themes, either as subdirectories
 # or as zip files. Relative paths are taken as relative to
 # the configuration directory.
-html_theme_path = []
+html_theme_path = ["_build_files/theme"]
+html_static_path = ["_static"]
 
 # The theme to use for HTML and HTML Help pages.
 html_theme = 'furo'
@@ -85,8 +87,9 @@ html_theme = 'furo'
 # A dictionary of options that influence the look and feel of
 # the selected theme. These are theme-specific.
 html_theme_options = {
-    "sidebar_hide_name": False,
+    "sidebar_hide_name": True,
     "navigation_with_keys": True,
+    "top_of_page_buttons": [],
 
     "light_css_variables": {
         "color-brand-primary": "#265787",
@@ -132,6 +135,9 @@ html_css_files = [
 html_js_files = [
         "js/version_switch.js",
     ]
+
+pygments_style = "sphinx"
+pygments_dark_style = "monokai"
 
 # If given, this must be the name of an image file
 # (path relative to the configuration directory) that is the logo of the docs,
