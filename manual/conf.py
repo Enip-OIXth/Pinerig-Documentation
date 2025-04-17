@@ -103,7 +103,6 @@ html_theme_options = {
 
         "color-brand-primary": "#265787",
         "color-brand-content": "#265787",
-        "color-admonition-background": "purple",
      },
 
      
