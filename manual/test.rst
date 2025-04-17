@@ -122,6 +122,7 @@ In Python, :python:`1 + 2` is equal to :python:`3`.
     Dropdown content
 
 --------------------
+
 .. tab-set::
 
     .. tab-item:: Label1
