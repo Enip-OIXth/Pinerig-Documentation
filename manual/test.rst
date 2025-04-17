@@ -90,9 +90,6 @@ In Python, :python:`1 + 2` is equal to :python:`3`.
 
        The output of this line has no spaces at the beginning.
 
-This is a sentence with a ciration [Ref]_.
-.. [Ref] Book or article reference, URL or whatever.
-
 .. |name| replace:: replacement *text*
 
 This is a sentence with a footnote reference [#f1]_. And also [#f2]_.
