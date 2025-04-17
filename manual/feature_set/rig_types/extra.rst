@@ -11,6 +11,7 @@ Lattice
 =======
 
 :bdg-success:`single bone`
+
 Inspired from CloudRig, creates a lattice with master and tweak control.
 Adds 3 bones : LTC-master, LTC-tweak and MCH-LTC-parent, along with a lattice object.
 Strength and falloff parameters are accessible in pose mode on any controller bone.
@@ -32,6 +33,7 @@ Warp
 ====
 
 :bdg-success:`single bone`
+
 Creates a lattice-like control but using a Warp modifier on the targeted object(s)/
 Adds 3 bones : WRP-master, WRP-tweak and MCH-WRP-parent, along with a warp modifier to the targeted object(s).
 The strength and falloff of the warp is tuned with the 'warp_strength'/'warp_falloff' custom bone parameter of warp_master.

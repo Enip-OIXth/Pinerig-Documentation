@@ -70,17 +70,17 @@ Requirements : The bone with this pinerig-type must have 4 child chains which co
 It can also need two children subrigs with the teeth pinerig-type for teeth collision.
 
 
-.. Jaw Settings
+.. card:: Jaw Settings
 
-Bottom Lip Influence (Float)
-   Specifies the influence of the jaw on the inner bottom lip with mouth lock disabled.
-Locked Influence (Float)
-   Specifies the influence of the jaw on both lips of locked mouth.
-Secondary Influence Falloff (Float)
-   Specifies the factor by which influence fades away with each successive lip loop
-   (for bottom lip loops the blend moves away from inner bottom lip to full jaw influence).
-Make Secondary Jaw Controls (Boolean)
-   Adds stretching and target control bones to the jaw.
+    Bottom Lip Influence (Float)
+      Specifies the influence of the jaw on the inner bottom lip with mouth lock disabled.
+   Locked Influence (Float)
+      Specifies the influence of the jaw on both lips of locked mouth.
+   Secondary Influence Falloff (Float)
+      Specifies the factor by which influence fades away with each successive lip loop
+      (for bottom lip loops the blend moves away from inner bottom lip to full jaw influence).
+   Make Secondary Jaw Controls (Boolean)
+      Adds stretching and target control bones to the jaw.
 
 
 .. Teeth Settings
