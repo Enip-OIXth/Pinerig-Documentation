@@ -80,10 +80,10 @@ numfig_secnum_depth = 0
 # or as zip files. Relative paths are taken as relative to
 # the configuration directory.
 
-html_theme_path = ["build_files/theme"]
+html_theme_path = ["../build_files/theme"]
 html_static_path = []
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ["build_files/templates"]
+templates_path = ["../build_files/templates"]
 
 
 # The theme to use for HTML and HTML Help pages.
