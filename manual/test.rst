@@ -94,6 +94,7 @@ In Python, :python:`1 + 2` is equal to :python:`3`.
 
 .. |name| replace:: replacement *text*
 
+This is a sentence with a footnote reference [#f1]_. And also [#f2]_.
 .. rubric:: Footnotes
 
 .. [#f1] Text of the first footnote.

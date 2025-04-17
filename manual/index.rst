@@ -28,5 +28,5 @@ Contents
    :maxdepth: 2
 
    feature_set/index.rst
-
+   test.rst
    

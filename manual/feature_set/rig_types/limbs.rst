@@ -30,7 +30,7 @@ IK Control
    the fingertip locked to a surface it touches, rather than a fully featured posing system.
 
    To improve performance, the switchable parent for the IK control contains only one option beside None.
-   Thus it is advised to add a 'held object' control using the :ref:`basic.pivot <https://docs.blender.org/manual/en/latest/addons/rigging/rigify/rig_types/basic.html#rigify-rigs-basic-pivot>`
+   Thus it is advised to add a 'held object' control using the `basic.pivot <https://docs.blender.org/manual/en/latest/addons/rigging/rigify/rig_types/basic.html#rigify-rigs-basic-pivot>`
    rig to act as the common parent for the fingers with a fully functional parent switch.
 IK Local Location
    Specifies the value of the Local Location option for IK controls, which decides if the location
@@ -42,7 +42,7 @@ Assign Extra IK Layers
 
 .. note::
 
-   Rotation Axis (Bend Rotation Axis in the case of `limbs.finger`)
+   Rotation Axis (Bend Rotation Axis in the case of `Finger`_)
    affects the `roll <https://docs.blender.org/manual/en/latest/animation/armatures/bones/editing/bone_roll.html>` of the generated bones.
    Automatic mode recalculates the generated bones roll while
    any of the Manual modes copy the roll of the meta-rig bones.
@@ -67,14 +67,14 @@ Arm
 =========
 
 Will create a fully featured bendy and stretchy arm depending on the user-defined options.
-Adds an option to create joint lock bones assigned to the `tweak` bone collection. 
+Adds an option to create joint lock bones assigned to the ``tweak`` bone collection. 
 Those bones are handy if a character interacts with a surface like a desk or while crawling, as they act a bit like an IK for elbows joints.
 
 Requirement: A chain of three connected bones (upper_arm, forearm, hand).
 
 
 Add Joint Lock (Boolean)
-   Create joint lock bone assigned to the `tweak` bone collection. This bone can also be used as a switchable parent candidate for the `hand_ik` control bone.
+   Create joint lock bone assigned to the ``tweak`` bone collection. This bone can also be used as a switchable parent candidate for the ``hand_ik`` control bone.
 IK Wrist Pivot
    Generates an extra child of the hand IK control that rotates around the tail of the hand bone.
 Rotation Axis (Automatic, X, Z)
@@ -97,7 +97,7 @@ Leg
 =========
 
 Will create a fully featured bendy and stretchy leg depending on the user-defined options.
-Adds an option to create joint lock bones assigned to the `tweak` bone collection. 
+Adds an option to create joint lock bones assigned to the ``tweak`` bone collection. 
 Those bones are handy if a character interacts with a surface like a desk or while crawling, as they act a bit like an IK for elbow/knee joints.
 
 Requirement: A chain of four connected bones (thigh, shin, foot, toe) with one unconnected
@@ -105,7 +105,7 @@ child of the foot to be used as the heel pivot.
 
 
 Add Joint Lock (Boolean)
-   Create joint lock bone assigned to the `tweak` bone collection. This bone can also be used as a switchable parent candidate for the `foot_ik` control bone.
+   Create joint lock bone assigned to the ``tweak`` bone collection. This bone can also be used as a switchable parent candidate for the ``foot_ik`` control bone.
 Foot Pivot (Ankle, Toe, Ankle & Toe)
    Specifies where to put the pivot location of the main IK control, or whether to generate an additional
    pivot control at the base of the toe.
@@ -159,7 +159,7 @@ Assign Tweak Layers
 Front Paw
 ===============
 
-Derivative of `limbs.paw`_ with extended IK suitable for use in front paws.
+Derivative of `Paw`_ with extended IK suitable for use in front paws.
 The additional IK limits the degree of change in the angle between shin and
 paw bones (2nd and 3rd) as the main IK control moves and rotates.
 
@@ -176,7 +176,7 @@ Heel IK Influence
 Rear Paw
 ==============
 
-Derivative of `limbs.paw`_ with extended IK suitable for use in rear paws.
+Derivative of `Paw`_ with extended IK suitable for use in rear paws.
 The additional IK tries to maintain thigh and paw bones (1st and 3rd) in a nearly parallel orientation
 as the main IK control moves and rotates.
 
