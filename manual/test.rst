@@ -90,6 +90,28 @@ In Python, :python:`1 + 2` is equal to :python:`3`.
 
        The output of this line has no spaces at the beginning.
 
+.. dropdown:: Dropdown title
+
+    Dropdown content
+
+.. tab-set::
+
+    .. tab-item:: Label1
+
+        Content 1
+
+    .. tab-item:: Label2
+
+        Content 2
+
+.. card:: Card Title
+
+    Header
+    ^^^
+    Card content
+    +++
+    Footer
+
 .. |name| replace:: replacement *text*
 
 This is a sentence with a footnote reference [#f1]_. And also [#f2]_.
