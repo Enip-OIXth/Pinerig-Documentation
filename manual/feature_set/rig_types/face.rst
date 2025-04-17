@@ -9,7 +9,7 @@ These rig types implement components of a modular face.
 .. _pinerig.face.aim:
 
 Aim
-=============
+===
 
 Adds an aim constraint to the bone. Contrary to the **`Eye`** rig type, it requires no child chains to generate properly.
 Creates a master control shared by all bones of this type in the same Aim Group.
@@ -28,7 +28,7 @@ Widget
 .. _pinerig.face.eye:
 
 Eye
-=============
+===
 
 Derivative of aim rig that mimics all the features of the default rigify `face.skin_eye <https://docs.blender.org/manual/en/latest/addons/rigging/rigify/rig_types/face.html#face-skin-eye>` rig type but with extra features like eyelid collision and Aim Groups.
 Implements a skin system [parent controller](skin#parent-controllers) that manages two skin chains for the top and bottom eyelids in addition to generating the eye rotation mechanism.
@@ -59,7 +59,7 @@ Widget
 .. _pinerig.face.jaw:
 
 Jaw
-=============
+===
 
 Base rig type used for the generation of a complex mouth rig. Mimics all the features of the default rigify `face.jaw <https://docs.blender.org/manual/en/latest/addons/rigging/rigify/rig_types/face.html#face-skin-jaw>` rig type. 
 This rig can add jaw stretch and targeting controls, teeth an lip collision, lip zip and roll and extra lip controls.
@@ -71,6 +71,7 @@ It can also need two children subrigs with the teeth pinerig-type for teeth coll
 
 
 .. Jaw Settings
+
 Bottom Lip Influence (Float)
    Specifies the influence of the jaw on the inner bottom lip with mouth lock disabled.
 Locked Influence (Float)
@@ -80,11 +81,17 @@ Secondary Influence Falloff (Float)
    (for bottom lip loops the blend moves away from inner bottom lip to full jaw influence).
 Make Secondary Jaw Controls (Boolean)
    Adds stretching and target control bones to the jaw.
+
+
 .. Teeth Settings
+
 Add Teeth Collision (Boolean)
    Requires 2 teeth pinerig-types as children of the jaw. Generates mechanisms allowing the upper teeth to collide with the lower teeth. 
    This can be disabled using the bone property of the upper teeth's bone. Offset and Collision Stop Distance can also be tweaked that way after generation.
+
+
 .. Lip Settings
+
 Enable Lip Collision (Boolean)
    Generates the mechanisms allowing the upper lip to collide with the lower lip. This can be disabled using the bone property of any upper lip bone.
 Create Lip Roll (Boolean)
@@ -94,7 +101,9 @@ Create Lip Zip (Boolean)
 Lip Zip Interpolation Mode ('Linear' , 'Smooth')
    Allows to choose how the lip zip mechanism interpolates between the bones in the chain.
 
+
 .. Extra Lips Settings
+
 Create Extra Lips Controls (Boolean)
    Creates new lip bones distributed along the nodes formed by the original lip bones. This allows to have more tweakers if needed.
 Extra Lip Bones Number (Integer)
@@ -110,8 +119,8 @@ Disable Default Lips Deform (Boolean)
 
 .. _pinerig.face.teeth:
 
-Teth
-=============
+Teeth
+=====
 
 A simple copy rig that allows teeth to individually follow the jaw or not via bone properties. 
 It is also necessary to have this rig type for teeth collision that can be set up in the jaw pinerig-type.

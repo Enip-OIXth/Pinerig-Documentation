@@ -24,6 +24,9 @@ Welcome to Pinerig's documentation!
 
 Contents
 --------
+.. toctree::
+   :maxdepth: 2
 
+   feature_set/index.rst
 
    

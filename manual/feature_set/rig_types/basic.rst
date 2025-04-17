@@ -11,7 +11,7 @@ This is unlike chain-based rig types that usually consume the whole connected ch
 .. _pinerig.basic.piston:
 
 Piston
-================
+======
 
 Adds a simple piston rig to the bone. There is an option to disable control bones.
 Start and end parents parameters can be entered in the form of string names of the bones that will become the parent of each ends of the piston.
@@ -31,7 +31,7 @@ Parent Tail (Boolean)
 .. _pinerig.basic.root:
 
 Root
-===========
+====
 
 Adds multiple roots (up to 3) to the rig while generating widgets appropriately.
 All children of this bone will be parented to the last root in the rig _('root_03' if root_number = 3, 'root_2' if root_number = 2)_.
@@ -64,7 +64,7 @@ Register Parent (Boolean)
 .. _pinerig.basic.single_axis_pivot:
 
 Single Axis Pivot
-==============
+=================
 
 Adds a pivot bone with mechanisms and controls to allow it (and its children sub-rigs) to rotate along a single axis.
 Useful for elongated props like guns and blades.
@@ -76,7 +76,7 @@ Widget Type
 .. _pinerig.basic.ball:
 
 Ball
-================
+====
 
 Adds a simple ball rig with squash and stretch controls that can be rotated anywhere independently from the spin control.
 This rig type is quite useful to get a quick but versatile squash and stretch setup working for props or cartoony characters.

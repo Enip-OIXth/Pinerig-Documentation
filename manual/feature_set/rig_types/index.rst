@@ -20,5 +20,4 @@ This documents rig types that are bundled with Rigify.
    spines.rst
    limbs.rst
    face.rst
-   skin.rst
    extra.rst

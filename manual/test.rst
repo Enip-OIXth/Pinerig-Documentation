@@ -35,8 +35,6 @@ Welcome to TESTING GROUNDS!
 .. attention::
     Information that requires the reader’s attention. 
     The content of the directive should be written in complete sentences and include all appropriate punctuation.
-.. admonition::
-    testing stuff
 .. seealso::
    Python's :py:mod:`zipfile` module
       Documentation of Python's standard :py:mod:`zipfile` module.
