@@ -27,7 +27,7 @@ if errorlevel 9009 (
 if "%1" == "setup" (
 	python -m venv ".venv"
 	".venv\Scripts\pip" install pip --upgrade
-	".venv\Scripts\pip" install -r "requirements.txt" --upgrade
+	".venv\Scripts\pip" install -r ".\requirements.txt" --upgrade
 	goto EOF
 )
 
