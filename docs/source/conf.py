@@ -77,7 +77,7 @@ numfig_secnum_depth = 0
 # the configuration directory.
 
 html_theme_path = ["build_files/theme"]
-html_static_path = ["_static"]
+html_static_path = []
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["build_files/templates"]
 
