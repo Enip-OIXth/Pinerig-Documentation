@@ -29,7 +29,7 @@ version = '0.1.0'
 # -- Extension configuration -------------------------------------------------
 
 extensions = [
-    'myst-parser',
+    'sphinx_design',
     'sphinx_inline_tabs',
     'sphinx_copybutton',
     'sphinx.ext.duration',
