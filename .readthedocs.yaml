@@ -10,7 +10,7 @@ python:
     - requirements: requirements.txt
 
 sphinx:
-  configuration: manual/conf.py
+  configuration: source/conf.py
   fail_on_warning: true
 
 formats:

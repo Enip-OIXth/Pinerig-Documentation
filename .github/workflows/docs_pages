@@ -44,10 +44,9 @@ jobs:
           
       - name: Make the Sphinx Docs HTML
         run: | 
-          sphinx-build -b html source/ _build/html
+          cd source/
+          make html
           
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/html
+      - name: Run ghp-import
+        run: | 
+          ghp-import -n -p -f source/_build/html
