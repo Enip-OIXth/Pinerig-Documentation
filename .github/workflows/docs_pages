@@ -45,8 +45,8 @@ jobs:
           
       - name: Make the Sphinx Docs HTML
         run: | 
-          make clean
-          make html
+          make -C docs clean
+          make -C docs html
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
