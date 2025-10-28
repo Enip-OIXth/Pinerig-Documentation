@@ -1,0 +1,19 @@
+.. _changelog-1.0.0:
+
+Version 1.0.0 (2025-10-28)
+--------------------------
+
+New
+~~~
+- Added initial feature set for rig types (basic, limbs, face, spines).
+- Introduced documentation site with Sphinx + ReadTheDocs theme.
+
+Improved
+~~~~~~~~
+- Enhanced UI consistency across wizard panels.
+- Refined build pipeline for reproducible docs.
+
+Fixed
+~~~~~
+- Corrected missing references in `index.rst`.
+- Fixed broken links in feature set introduction.

@@ -27,6 +27,15 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   installation.rst
+   tools/index.rst
    feature_set/index.rst
+   changelog/index.rst
+   faq.rst
+   license.rst
+   download.rst
+
+
+
    test.rst
    
