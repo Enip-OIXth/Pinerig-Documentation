@@ -19,8 +19,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    ##env:
-      ##GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    #env:
+      #GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -41,12 +41,15 @@ jobs:
         run: | 
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install ghp-import
           
       - name: Make the Sphinx Docs HTML
         run: | 
-          make -C docs clean
-          make -C docs html
+          make clean
+          make html
           
-      - name: Run ghp-import
-        run: | 
-          ghp-import -n -p -f docs/_build/html
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _build/html
