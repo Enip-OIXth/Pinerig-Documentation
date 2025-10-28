@@ -44,9 +44,9 @@ jobs:
           
       - name: Make the Sphinx Docs HTML
         run: | 
-          cd source/
-          make html
+          make -C docs clean
+          make -C docs html
           
       - name: Run ghp-import
         run: | 
-          ghp-import -n -p -f source/_build/html
+          ghp-import -n -p -f docs/_build/html
